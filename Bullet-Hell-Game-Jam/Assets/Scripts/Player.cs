@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
 
     [Header("Player Shooting")]
     [SerializeField] GameObject firePoint, projectile;
+    Color _projectileColor;
 
     [Header("General")]
     public Rigidbody2D rb;
@@ -68,5 +69,15 @@ public class Player : MonoBehaviour
 
     public Vector3 GetMousePosition() {
         return _mousePosition;
+    }
+
+    public void SetColor(Color color) {
+        Debug.Log(color);
+        _projectileColor = color;
+    }
+
+    public Color GetColor() {
+        Debug.Log(_projectileColor);
+        return _projectileColor;
     }
 }

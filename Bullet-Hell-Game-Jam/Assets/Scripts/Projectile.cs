@@ -8,10 +8,11 @@ public class Projectile : MonoBehaviour
     public Rigidbody2D rb;
 
     Vector3 _mousePosition;
-    Color color;
+    Color _color;
 
     void Awake() {
-        _mousePosition = FindObjectOfType<Player>().GetMousePosition();        
+        _mousePosition = FindObjectOfType<Player>().GetMousePosition();
+        _color = FindObjectOfType<Player>().GetColor();
     }
 
     // Start is called before the first frame update
