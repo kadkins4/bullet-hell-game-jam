@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 591144288}
   m_Layer: 0
   m_Name: UpperBounds
-  m_TagString: Untagged
+  m_TagString: Bounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 628965304}
   m_Layer: 0
   m_Name: LeftBounds
-  m_TagString: Untagged
+  m_TagString: Bounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 2050095259}
   m_Layer: 0
   m_Name: LowerBounds
-  m_TagString: Untagged
+  m_TagString: Bounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 2085607537}
   m_Layer: 0
   m_Name: RightBounds
-  m_TagString: Untagged
+  m_TagString: Bounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -656,12 +656,12 @@ PrefabInstance:
     - target: {fileID: 2299332298636616888, guid: 998cfec7cd2b8244cb9ea128387e7875,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.87
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 2299332298636616888, guid: 998cfec7cd2b8244cb9ea128387e7875,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.72
+      value: -1.06
       objectReference: {fileID: 0}
     - target: {fileID: 2299332298636616888, guid: 998cfec7cd2b8244cb9ea128387e7875,
         type: 3}
@@ -707,6 +707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299332298636616894, guid: 998cfec7cd2b8244cb9ea128387e7875,
+        type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}

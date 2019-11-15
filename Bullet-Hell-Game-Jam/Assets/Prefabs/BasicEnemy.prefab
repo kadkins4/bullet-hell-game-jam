@@ -48,6 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: 1
   speed: 3
+  _collider: {fileID: 2299332298636616895}
+  childTransform: {fileID: 2299332299577090898}
 --- !u!50 &2299332298636616889
 Rigidbody2D:
   serializedVersion: 4

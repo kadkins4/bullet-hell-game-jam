@@ -2,50 +2,51 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CircleCollider2D))]
 
-public enum Color
+
+public enum Colors
 {
     Red,
     Yellow,
     Blue
 }
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CircleCollider2D))]
 public class BasicEnemy : MonoBehaviour
 {
 
     public int size;
 
+    [Header("Starting Speed")]
     public float speed;
 
-    Color enemyColor;
+    [Header("")]
+    public Colors enemyColor;
 
     private GameObject player;
-    private Rigidbody2D rigidbody;
-    private CircleCollider2D collider;
+    private Rigidbody2D _rigidbody;
+    public CircleCollider2D _collider;
 
-    private SpriteRenderer renderer;
-    private Transform childTransform;
+    private SpriteRenderer _renderer;
+    public Transform childTransform;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        collider = GetComponent<CircleCollider2D>();
-        rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
 
-        enemyColor = (Color)Random.Range(0, 2);
-
-        renderer = GetComponentInChildren<SpriteRenderer>();
+        _renderer = childTransform.GetComponent<SpriteRenderer>();
         childTransform = transform.GetChild(0);
 
         size = Random.Range(1, 10);
-
-        collider.radius = size * 0.25f;
-        childTransform.localScale = Vector2.one * size * 3f;
+        UpdateSize();
 
         MoveTowardsPlayer();
+
+        enemyColor = (Colors)Random.Range(0, 2);
+        UpdateColor();
     }
 
     void MoveTowardsPlayer()
@@ -55,12 +56,20 @@ public class BasicEnemy : MonoBehaviour
 
         transform.up = lookAtPoint - currentPosition;
 
-        rigidbody.velocity = new Vector2(transform.up.x, transform.up.y) * speed;
+        _rigidbody.velocity = new Vector2(transform.up.x, transform.up.y) * speed;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.tag == "Bounds")
+        {
+            MoveTowardsPlayer();
+        }
     }
 
     void UpdateSize()
     {
-        collider.radius = size * 0.25f;
+        _collider.radius = size * 0.25f;
         childTransform.localScale = Vector2.one * size * 3f;
     }
 
@@ -74,11 +83,16 @@ public class BasicEnemy : MonoBehaviour
     {
         switch(enemyColor)
         {
-            case Color.Red:
+            case Colors.Red:
+                _renderer.color = Color.red;
                 break;
-            case Color.Yellow:
+            case Colors.Yellow:
+                _renderer.color = Color.yellow;
                 break;
-            case Color.Blue:
+            case Colors.Blue:
+                _renderer.color = Color.blue;
+                break;
+            default:
                 break;
         }
     }
@@ -87,5 +101,6 @@ public class BasicEnemy : MonoBehaviour
     private void OnValidate()
     {
         UpdateSize();
+        UpdateColor();
     }
 }
