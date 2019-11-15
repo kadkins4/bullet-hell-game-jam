@@ -3,7 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CircleCollider2D))]   
+[RequireComponent(typeof(CircleCollider2D))]
+
+public enum Color
+{
+    Red,
+    Yellow,
+    Blue
+}
+
 public class BasicEnemy : MonoBehaviour
 {
 
@@ -11,12 +19,7 @@ public class BasicEnemy : MonoBehaviour
 
     public float speed;
 
-    public enum Color
-    {
-        Red,
-        Yellow,
-        Blue
-    }
+    Color enemyColor;
 
     private GameObject player;
     private Rigidbody2D rigidbody;
@@ -31,6 +34,8 @@ public class BasicEnemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         collider = GetComponent<CircleCollider2D>();
         rigidbody = GetComponent<Rigidbody2D>();
+
+        enemyColor = (Color)Random.Range(0, 2);
 
         renderer = GetComponentInChildren<SpriteRenderer>();
         childTransform = transform.GetChild(0);
@@ -63,6 +68,19 @@ public class BasicEnemy : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void UpdateColor()
+    {
+        switch(enemyColor)
+        {
+            case Color.Red:
+                break;
+            case Color.Yellow:
+                break;
+            case Color.Blue:
+                break;
+        }
     }
 
     //For when size changes in editor
