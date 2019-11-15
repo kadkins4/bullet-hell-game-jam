@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873557567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0369, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0399, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 70081711858498450}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 70081713425093351}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,6 +159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 8
   playerHealth: 1
+  firePoint: {fileID: 873557567}
+  projectile: {fileID: 3840751796516762677, guid: db13699748bd4435f8f93c34fcdcedf0,
+    type: 3}
   rb: {fileID: 70081713425093348}
 --- !u!50 &70081713425093348
 Rigidbody2D:
@@ -194,7 +197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010438591, y: 0.0020877123}
+  m_Offset: {x: -0.0025493503, y: 0.03499055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -205,5 +208,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5448778, y: 0.5448773}
+  m_Size: {x: 0.5985613, y: 0.41326618}
   m_EdgeRadius: 0
