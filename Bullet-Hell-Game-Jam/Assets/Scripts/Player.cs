@@ -67,7 +67,8 @@ public class Player : MonoBehaviour
         // find the amount of rotation needed to face mouse position
         var angle = Mathf.Atan2(_mousePosition.x, _mousePosition.y) * Mathf.Rad2Deg;
         // add amount needed to current rotation.
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.back); // @NOTE Not sure why I needed to use back instead of forward -- shrug
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.back); 
+        // @NOTE Not sure why I needed to use back instead of forward -- shrug
     }
 
     private void _Shoot() {
@@ -109,7 +110,6 @@ public class Player : MonoBehaviour
 
         // TODO remove this from here only for dev testing
         StartCoroutine(cameraShake.Shake(.5f, .2f));
-
     }
 
     public Color GetColor() {

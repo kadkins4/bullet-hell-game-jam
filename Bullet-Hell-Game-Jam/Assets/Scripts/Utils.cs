@@ -10,13 +10,9 @@ public enum Colors
     Green
 }
 
-// public class Utils : MonoBehaviour
-// {
-//     void Start()
-//     {
-//     }
-
-//     void Update()
-//     {
-//     }
-// }
+public enum MusicTracks 
+{
+    Background,
+    Menu,
+    GameOver
+}

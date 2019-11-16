@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3840751796516762677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.478, z: -10}
-  m_LocalScale: {x: 0.45, y: 1.5, z: 1}
+  m_LocalScale: {x: 0.75, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -128,7 +128,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &3466588499810294886
 MonoBehaviour:
@@ -144,3 +144,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   rb: {fileID: 5698055809841683126}
+  colorState: 0

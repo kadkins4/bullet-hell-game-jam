@@ -101,6 +101,14 @@ public class BasicEnemy : Enemy
             {
                 size -= 1;
                 UpdateSize();
+            } 
+            else 
+            {
+                if (size < 4) // TODO make the 4 a variable so we aren't hard-coding
+                {
+                    size += 1;
+                    UpdateSize();
+                }
             }
         }
     }

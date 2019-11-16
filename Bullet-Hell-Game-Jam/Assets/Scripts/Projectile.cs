@@ -16,12 +16,10 @@ public class Projectile : MonoBehaviour
         _mousePosition = FindObjectOfType<Player>().GetMousePosition();
         _color = FindObjectOfType<Player>().GetColor();
         colorState = FindObjectOfType<Player>().GetColorState();
-        Debug.Log(_color);
         _spriteRenderer = GetComponent<SpriteRenderer>();
         SetColorOfProjectile();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         _RotateBullet();
@@ -42,18 +40,15 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         var tag = other.gameObject.tag;
-
         if (other.gameObject.tag != "Player") { // ignore player
-            Debug.Log(tag);
+
             if (tag == "Wall") {
                 Destroy(gameObject);
             }
 
             if (tag == "Enemy") {
-                // if correct color
-                    // deal dmg
-                // else
-                    // side effect
+                Destroy(gameObject);
+                // side effect
             }
         }
     }
