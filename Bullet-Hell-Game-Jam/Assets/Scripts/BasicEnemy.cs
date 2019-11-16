@@ -15,14 +15,26 @@ public class GameObjectEvent : UnityEvent<GameObject>
 
 }
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CircleCollider2D))]
 public class Enemy : MonoBehaviour
 {
     [Header("Starting Speed")]
     public float speed;
+
+    public Rigidbody2D _rigidbody;
+    public CircleCollider2D _collider;
+
+    public virtual void Start()
+    {
+        if (_rigidbody == null)
+        {
+            _rigidbody = GetComponent<Rigidbody2D>();
+        }
+    }
 }
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CircleCollider2D))]
+
 
 public class BasicEnemy : Enemy
 {
@@ -36,23 +48,16 @@ public class BasicEnemy : Enemy
 
     private GameObject player;
     private Transform playerTransform;
-    public Rigidbody2D _rigidbody;
-    public CircleCollider2D _collider;
 
     public SpriteRenderer _renderer;
     public Transform childTransform;
 
 
     // Start is called before the first frame update
-    void Start()
+    override public void Start()
     { 
 
         player = GameObject.FindGameObjectWithTag("Player");
-        
-        if(_rigidbody == null)
-        {
-            _rigidbody = GetComponent<Rigidbody2D>();
-        }
         
 
         if(_renderer == null)

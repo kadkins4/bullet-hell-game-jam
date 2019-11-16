@@ -15,7 +15,7 @@ MonoBehaviour:
   durationTime: 5
   EnemiesThatCanSpawn:
   - {fileID: 2299332298636616891, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
-  - {fileID: 2299332298636616891, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
+  - {fileID: 6347318644044498047, guid: 20d69fdc9cef43245b9258eb7ee60d25, type: 3}
   infinite: 0
   dependentStage: 0
   enemySpeedMultiplier: 3

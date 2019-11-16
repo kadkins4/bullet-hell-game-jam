@@ -47,10 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  size: 1
-  enemyColor: 0
   _rigidbody: {fileID: 2299332298636616889}
   _collider: {fileID: 2299332298636616895}
+  size: 1
+  enemyColor: 0
   _renderer: {fileID: 2299332299577090925}
   childTransform: {fileID: 2299332299577090898}
 --- !u!50 &2299332298636616889
