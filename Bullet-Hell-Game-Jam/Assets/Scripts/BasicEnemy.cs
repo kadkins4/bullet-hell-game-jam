@@ -6,7 +6,8 @@ public enum Colors
 {
     Red,
     Yellow,
-    Blue
+    Blue,
+    Green
 }
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -90,6 +91,9 @@ public class BasicEnemy : MonoBehaviour
                 break;
             case Colors.Blue:
                 _renderer.color = Color.blue;
+                break;
+            case Colors.Green:
+                _renderer.color = Color.green;
                 break;
             default:
                 break;

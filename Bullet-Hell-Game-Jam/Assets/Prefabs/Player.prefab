@@ -162,7 +162,16 @@ MonoBehaviour:
   firePoint: {fileID: 873557567}
   projectile: {fileID: 3840751796516762677, guid: db13699748bd4435f8f93c34fcdcedf0,
     type: 3}
+  yellowProj: {r: 0.99178326, g: 1, b: 0, a: 0}
+  redProj: {r: 1, g: 0, b: 0, a: 0}
+  greenProj: {r: 0, g: 1, b: 0.19354391, a: 0}
+  blueProj: {r: 0, g: 0.7320416, b: 1, a: 0}
   rb: {fileID: 70081713425093348}
+  activeRend: {fileID: 70081711858498452}
+  redPlayer: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  greenPlayer: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  yellowPlayer: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  bluePlayer: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!50 &70081713425093348
 Rigidbody2D:
   serializedVersion: 4

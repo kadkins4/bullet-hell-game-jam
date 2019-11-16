@@ -18,14 +18,22 @@ public class Player : MonoBehaviour
 
     [Header("Player Shooting")]
     [SerializeField] GameObject firePoint, projectile;
-    Color _projectileColor;
+
+    Color _activeProjectileColor;
+    [SerializeField] Color yellowProj, redProj, greenProj, blueProj;
 
     [Header("General")]
-    public Rigidbody2D rb;
+    [SerializeField] Rigidbody2D rb; // TODO instead of public -- get rb on Awake()
+    [SerializeField] SpriteRenderer activeRend;
+    [SerializeField] Sprite redPlayer;
+    [SerializeField] Sprite greenPlayer;
+    [SerializeField] Sprite yellowPlayer;
+    [SerializeField] Sprite bluePlayer;
 
     void Start() {
         // TODO Remove this debug line
         Debug.Log("---------GAME JAM TIME! BRING ON THE BULLETS!-----------");
+        SetColor("Red");
     }
 
     void Update() {
@@ -71,13 +79,30 @@ public class Player : MonoBehaviour
         return _mousePosition;
     }
 
-    public void SetColor(Color color) {
-        Debug.Log(color);
-        _projectileColor = color;
+    public void SetColor(string color) {
+        if (color == "Blue") {
+            activeRend.sprite = bluePlayer;
+            _activeProjectileColor = blueProj;
+        }
+
+        if (color == "Yellow") {
+            activeRend.sprite = yellowPlayer;
+            _activeProjectileColor = yellowProj;
+        }
+
+        if (color == "Red") {
+            activeRend.sprite = redPlayer;
+            _activeProjectileColor = redProj;
+        }
+
+        if (color == "Green") {
+            activeRend.sprite = greenPlayer;
+            _activeProjectileColor = greenProj;
+        }
+
     }
 
     public Color GetColor() {
-        Debug.Log(_projectileColor);
-        return _projectileColor;
+        return _activeProjectileColor;
     }
 }
