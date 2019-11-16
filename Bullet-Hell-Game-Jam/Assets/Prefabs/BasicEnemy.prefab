@@ -83,11 +83,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f73fa4100c8d184592dbd3110c303c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
   speed: 10
-  enemyColor: 0
   _rigidbody: {fileID: 2515304170737493187}
   _collider: {fileID: 2515304170737493186}
+  size: 1
+  enemyColor: 0
   _renderer: {fileID: 2515304171854319296}
   childTransform: {fileID: 2515304171854319299}
 --- !u!1 &2515304171854319298
