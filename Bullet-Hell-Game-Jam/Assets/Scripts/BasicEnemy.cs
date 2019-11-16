@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
+using UnityEngine.Events;
 
 public enum Colors
 {
@@ -11,46 +10,69 @@ public enum Colors
     Blue
 }
 
+public class GameObjectEvent : UnityEvent<GameObject>
+{
+
+}
+
+public class Enemy : MonoBehaviour
+{
+    [Header("Starting Speed")]
+    public float speed;
+}
+
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CircleCollider2D))]
-public class BasicEnemy : MonoBehaviour
+
+public class BasicEnemy : Enemy
 {
+
+    public GameObjectEvent deathEvent = new GameObjectEvent();
 
     public int size;
 
-    [Header("Starting Speed")]
-    public float speed;
-
-    [Header("")]
+    [Header("Dev Purposes, Change color here manually")]
     public Colors enemyColor;
 
     private GameObject player;
-    private Rigidbody2D _rigidbody;
+    private Transform playerTransform;
+    public Rigidbody2D _rigidbody;
     public CircleCollider2D _collider;
 
-    private SpriteRenderer _renderer;
+    public SpriteRenderer _renderer;
     public Transform childTransform;
+
 
     // Start is called before the first frame update
     void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-        _rigidbody = GetComponent<Rigidbody2D>();
+    { 
 
-        _renderer = childTransform.GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        
+        if(_rigidbody == null)
+        {
+            _rigidbody = GetComponent<Rigidbody2D>();
+        }
+        
+
+        if(_renderer == null)
+        {
+            _renderer = childTransform.GetComponent<SpriteRenderer>();
+        }
         childTransform = transform.GetChild(0);
 
-        size = Random.Range(1, 10);
+        size = Random.Range(1, 4);
         UpdateSize();
 
         MoveTowardsPlayer();
 
-        enemyColor = (Colors)Random.Range(0, 2);
+        enemyColor = (Colors)Random.Range(0, 3);
         UpdateColor();
     }
 
     void MoveTowardsPlayer()
     {
+        //Ignore this error, everything works fine
         Vector2 lookAtPoint = new Vector2(player.transform.position.x, player.transform.position.y);
         Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
 
@@ -61,6 +83,7 @@ public class BasicEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //If map edge hit, reorient towards player
         if(collision.transform.tag == "Bounds")
         {
             MoveTowardsPlayer();
@@ -76,7 +99,11 @@ public class BasicEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Death
+        if(size == 0)
+        {
+            OnDeath();
+        }
     }
 
     void UpdateColor()
@@ -103,4 +130,11 @@ public class BasicEnemy : MonoBehaviour
         UpdateSize();
         UpdateColor();
     }
+
+    private void OnDeath()
+    {
+        //Calls unity event
+        deathEvent.Invoke(gameObject);
+    }
+
 }
