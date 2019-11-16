@@ -18,9 +18,8 @@ public class Player : MonoBehaviour
 
     [Header("Player Shooting")]
     [SerializeField] GameObject firePoint, projectile;
-
-    Color _activeProjectileColor;
     [SerializeField] Color yellowProj, redProj, greenProj, blueProj;
+    Color _activeProjectileColor;
 
     [Header("General")]
     [SerializeField] Rigidbody2D rb; // TODO instead of public -- get rb on Awake()
@@ -29,6 +28,10 @@ public class Player : MonoBehaviour
     [SerializeField] Sprite greenPlayer;
     [SerializeField] Sprite yellowPlayer;
     [SerializeField] Sprite bluePlayer;
+    Colors colorState;
+
+    [Header("DEV TEST CAMERA SHAKE")]
+    public CameraShake cameraShake;
 
     void Start() {
         // TODO Remove this debug line
@@ -83,26 +86,37 @@ public class Player : MonoBehaviour
         if (color == "Blue") {
             activeRend.sprite = bluePlayer;
             _activeProjectileColor = blueProj;
+            colorState = Colors.Blue;
         }
 
         if (color == "Yellow") {
             activeRend.sprite = yellowPlayer;
             _activeProjectileColor = yellowProj;
+            colorState = Colors.Yellow;
         }
 
         if (color == "Red") {
             activeRend.sprite = redPlayer;
             _activeProjectileColor = redProj;
+            colorState = Colors.Red;
         }
 
         if (color == "Green") {
             activeRend.sprite = greenPlayer;
             _activeProjectileColor = greenProj;
+            colorState = Colors.Green;
         }
+
+        // TODO remove this from here only for dev testing
+        StartCoroutine(cameraShake.Shake(.5f, .2f));
 
     }
 
     public Color GetColor() {
         return _activeProjectileColor;
+    }
+
+    public Colors GetColorState() {
+        return colorState;
     }
 }

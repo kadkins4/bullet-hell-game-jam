@@ -53,7 +53,7 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int i = 0; i < enemiesSpawned.Count; i++)
         {
-            enemiesSpawned[i].GetComponent<BasicEnemy>().deathEvent.AddListener(OnDeath);
+            enemiesSpawned[i].GetComponent<Enemy>().deathEvent.AddListener(OnDeath);
         }
         
     }
@@ -118,7 +118,7 @@ public class EnemySpawner : MonoBehaviour
         if(enemiesSpawned.Contains(_obj))
         {
             enemiesSpawned.Remove(_obj);
-            _obj.GetComponent<BasicEnemy>().deathEvent.RemoveAllListeners();
+            _obj.GetComponent<Enemy>().deathEvent.RemoveAllListeners();
             Destroy(_obj);
         }
 
@@ -133,5 +133,7 @@ public class EnemySpawner : MonoBehaviour
     {
         enemiesSpawned.Clear();
     }
+
+
 
 }

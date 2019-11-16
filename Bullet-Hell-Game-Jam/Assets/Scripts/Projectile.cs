@@ -9,11 +9,14 @@ public class Projectile : MonoBehaviour
 
     Vector3 _mousePosition;
     Color _color;
+    public Colors colorState;
     SpriteRenderer _spriteRenderer;
 
     void Awake() {
         _mousePosition = FindObjectOfType<Player>().GetMousePosition();
         _color = FindObjectOfType<Player>().GetColor();
+        colorState = FindObjectOfType<Player>().GetColorState();
+        Debug.Log(_color);
         _spriteRenderer = GetComponent<SpriteRenderer>();
         SetColorOfProjectile();
     }
@@ -33,7 +36,6 @@ public class Projectile : MonoBehaviour
     }
 
     private void _AccelerateBullet() {
-        Debug.Log(_color);
         float actualThrust = thrust * 10f;
         rb.AddForce(transform.up * actualThrust, ForceMode2D.Impulse);
     }
@@ -58,7 +60,6 @@ public class Projectile : MonoBehaviour
 
     private void SetColorOfProjectile() {
         _spriteRenderer.color = new Color(_color.r, _color.g, _color.b);
-        Debug.Log(_spriteRenderer.color);
     }
 
 }

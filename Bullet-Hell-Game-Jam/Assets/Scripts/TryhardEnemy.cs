@@ -6,10 +6,15 @@ public class TryhardEnemy : Enemy
 {
 
     private GameObject player;
+    [Header("Size, shouldnt change in gameplay")][Range(1, 4)]
+    public int size;
+
+    public Transform childTransform;
 
     override public void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        childTransform = transform.GetChild(0);
     }
 
     void MoveTowardsPlayer()
@@ -28,4 +33,31 @@ public class TryhardEnemy : Enemy
         //Probably inefficient but who cares
         MoveTowardsPlayer();
     }
+
+    void UpdateSize()
+    {
+        _collider.radius = size * 0.25f;
+        childTransform.localScale = Vector2.one * size * 3f;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        
+        if(collision.transform.tag == "Projectile")
+        {
+            HandleDeath();
+        }
+    }
+
+    private void HandleDeath()
+    {
+        OnDeath();
+    }
+
+    private void OnValidate()
+    {
+        UpdateSize();
+    }
+
 }

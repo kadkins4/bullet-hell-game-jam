@@ -3,13 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public enum Colors
-{
-    Red,
-    Yellow,
-    Blue
-}
-
 public class GameObjectEvent : UnityEvent<GameObject>
 {
 
@@ -22,6 +15,8 @@ public class Enemy : MonoBehaviour
     [Header("Starting Speed")]
     public float speed;
 
+    public GameObjectEvent deathEvent = new GameObjectEvent();
+
     public Rigidbody2D _rigidbody;
     public CircleCollider2D _collider;
 
@@ -32,6 +27,13 @@ public class Enemy : MonoBehaviour
             _rigidbody = GetComponent<Rigidbody2D>();
         }
     }
+
+    public void OnDeath()
+    {
+        //Calls unity event
+        deathEvent.Invoke(gameObject);
+    }
+
 }
 
 
@@ -39,9 +41,9 @@ public class Enemy : MonoBehaviour
 public class BasicEnemy : Enemy
 {
 
-    public GameObjectEvent deathEvent = new GameObjectEvent();
+    
 
-    public int size;
+    [Range(1, 4)] public int size;
 
     [Header("Dev Purposes, Change color here manually")]
     public Colors enemyColor;
@@ -71,7 +73,7 @@ public class BasicEnemy : Enemy
 
         MoveTowardsPlayer();
 
-        enemyColor = (Colors)Random.Range(0, 3);
+        enemyColor = (Colors)Random.Range(0, 4);
         UpdateColor();
     }
 
@@ -89,9 +91,17 @@ public class BasicEnemy : Enemy
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //If map edge hit, reorient towards player
-        if(collision.transform.tag == "Bounds")
+        if(collision.transform.tag == "Wall")
         {
             MoveTowardsPlayer();
+        }
+        if(collision.transform.tag == "Projectile")
+        {
+            if(collision.transform.GetComponent<Projectile>().colorState == enemyColor)
+            {
+                size -= 1;
+                UpdateSize();
+            }
         }
     }
 
@@ -124,6 +134,9 @@ public class BasicEnemy : Enemy
             case Colors.Blue:
                 _renderer.color = Color.blue;
                 break;
+            case Colors.Green:
+                _renderer.color = Color.green;
+                break;
             default:
                 break;
         }
@@ -134,12 +147,6 @@ public class BasicEnemy : Enemy
     {
         UpdateSize();
         UpdateColor();
-    }
-
-    private void OnDeath()
-    {
-        //Calls unity event
-        deathEvent.Invoke(gameObject);
     }
 
 }

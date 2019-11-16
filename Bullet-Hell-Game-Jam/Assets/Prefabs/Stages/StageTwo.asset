@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d928dc7830445f4438ff0c67f547c3a5, type: 3}
+  m_Name: StageTwo
+  m_EditorClassIdentifier: 
+  durationTime: 2
+  EnemiesThatCanSpawn:
+  - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
+  - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
+  - {fileID: 2814852405085533481, guid: db0e37c52d3c19742b62970227f0c6a0, type: 3}
+  - {fileID: 2814852405085533481, guid: db0e37c52d3c19742b62970227f0c6a0, type: 3}
+  infinite: 1
+  dependentStage: 0
+  enemySpeedMultiplier: 1
+  spawnLocation: {x: 0, y: 0, z: 0}

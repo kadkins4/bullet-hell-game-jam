@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Ammo
+  - Projectile
   layers:
   - Default
   - TransparentFX
