@@ -52,7 +52,7 @@ public class Projectile : MonoBehaviour
             }
         }
     }
-
+    
     private void SetColorOfProjectile() {
         _spriteRenderer.color = new Color(_color.r, _color.g, _color.b);
     }

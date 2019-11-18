@@ -8,6 +8,8 @@ using UnityEngine.Events;
 public class EnemySpawner : MonoBehaviour
 {
 
+    public GameObject[] SpawnLocations;
+
     [Header("List of Stages that can occur")]
     public List<Stage> Stages;
 
@@ -15,12 +17,31 @@ public class EnemySpawner : MonoBehaviour
     public List<Stage> stageQueue;
     [SerializeField] private Stage currentStage;
 
+    private GameObject player;
+    private Player playerScript;
+    private Vector2 playerPosition;
+    private bool isPlayerDead = false;
+
+    public CameraShake cameraShaker;
+
     // Start is called before the first frame update
     void Start()
     {
-        stageQueue = Stages;
+
+
+        stageQueue = new List<Stage>(Stages);
         currentStage = stageQueue[0];
         StartCoroutine(HandleStage(currentStage));
+
+        cameraShaker = Camera.main.GetComponent<CameraShake>();
+
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerScript = player.GetComponent<Player>();
+
+        playerScript.deathEvent.AddListener(PlayerDeath);
+        
+
+        SpawnLocations = GameObject.FindGameObjectsWithTag("Ammo");
 
     }
 
@@ -29,9 +50,10 @@ public class EnemySpawner : MonoBehaviour
     { 
         if(enemiesSpawned.Contains(null as GameObject))
         {
-            Debug.Log("true");
             enemiesSpawned.Remove(null);
         }
+
+        playerPosition = player.transform.position;
     }
 
     //List of enemies spawned in the current stage
@@ -41,9 +63,8 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int i = 0; i < stage.EnemiesThatCanSpawn.Count; i++)
         {
-            GameObject _enemyObject = Instantiate(stage.EnemiesThatCanSpawn[i].gameObject, stage.spawnLocation, Quaternion.Euler(0, 0, 0)) as GameObject;
-            ApplyModifiers(_enemyObject.GetComponent<Enemy>());
-            enemiesSpawned.Add(_enemyObject);
+            //GameObject _enemyObject = Instantiate(stage.EnemiesThatCanSpawn[i].gameObject, FindFarthestSpawner(), Quaternion.Euler(0, 0, 0)) as GameObject;
+            InstantiateEnemy(stage.EnemiesThatCanSpawn[i].gameObject, FindFarthestSpawner());
             
         }
         AddListeners();
@@ -65,11 +86,13 @@ public class EnemySpawner : MonoBehaviour
 
     void NextStage()
     {
-        Debug.Log("Begin Next Stage!");
-        StopAllCoroutines();
-        stageQueue.Remove(currentStage);
-        currentStage = stageQueue[0];
-        StartCoroutine(HandleStage(currentStage));
+        if(isPlayerDead == false)
+        {
+            StopAllCoroutines();
+            stageQueue.Remove(currentStage);
+            currentStage = stageQueue[0];
+            StartCoroutine(HandleStage(currentStage));
+        }
     }
 
     private IEnumerator HandleStage(Stage stage)
@@ -77,7 +100,6 @@ public class EnemySpawner : MonoBehaviour
         HandleSpawns(stage);
         
         yield return new WaitForSeconds(stage.durationTime);
-        Debug.Log("Stage Timer Complete!");
         //If the stage does not require everyone to be dead
         if(stage.dependentStage == false)
         {
@@ -113,12 +135,22 @@ public class EnemySpawner : MonoBehaviour
         }*/
     }
 
+    public void InstantiateEnemy(GameObject _enemy, Vector3 location)
+    {
+        ApplyModifiers(_enemy.GetComponent<Enemy>());
+        GameObject __enemy = Instantiate(_enemy, location, Quaternion.Euler(0, 0, 0)) as GameObject;
+        __enemy.GetComponent<Enemy>().deathEvent.AddListener(OnDeath);
+        enemiesSpawned.Add(__enemy);
+    }
+
     void OnDeath(GameObject _obj)
     {
         if(enemiesSpawned.Contains(_obj))
         {
+            StartCoroutine(cameraShaker.Shake(0.25f, 0.1f));
             enemiesSpawned.Remove(_obj);
             _obj.GetComponent<Enemy>().deathEvent.RemoveAllListeners();
+            
             Destroy(_obj);
         }
 
@@ -131,9 +163,37 @@ public class EnemySpawner : MonoBehaviour
 
     private void OnDisable()
     {
-        enemiesSpawned.Clear();
+
     }
 
+    private Vector3 FindFarthestSpawner()
+    {
+        float farthestDistance = 0;
+        float currentDistance = 0;
+        Vector3 _spawner = Vector3.zero;
+        for (int i = 0; i < SpawnLocations.Length; i++)
+        {
+            currentDistance = Mathf.Abs(Vector2.Distance(SpawnLocations[i].transform.position, playerPosition));
+            if(currentDistance > farthestDistance)
+            {
+                farthestDistance = currentDistance;
+                _spawner = SpawnLocations[i].transform.position;
+            }
+        }
+        return _spawner;
+    }
 
-
+    void PlayerDeath()
+    {
+        Debug.Log("PlayerDeath Event");
+        isPlayerDead = true;
+        GameObject _enemy = null;
+        StopAllCoroutines();
+        for (int i = 0; i < enemiesSpawned.Count; i++)
+        {
+            _enemy = enemiesSpawned[i];
+            enemiesSpawned.Remove(_enemy);
+            Destroy(_enemy);
+        }
+    }
 }

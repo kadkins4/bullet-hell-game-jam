@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: 015e866381e03de41bd3ce64b7bf6937
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6584370590967411807
+    second: boi_huge_96x96_0
+  - first:
+      213: 2686311152413529852
+    second: boi_huge_96x96_1
+  - first:
+      213: -1111300714669309592
+    second: boi_huge_96x96_2
+  - first:
+      213: 1939358399860775109
+    second: boi_huge_96x96_3
+  - first:
+      213: 5129315872886830500
+    second: boi_huge_96x96_4
+  - first:
+      213: 2050330633674519652
+    second: boi_huge_96x96_5
+  - first:
+      213: -6207434928577085405
+    second: boi_huge_96x96_6
+  - first:
+      213: -8190692558046200294
+    second: boi_huge_96x96_7
+  - first:
+      213: 1667923951457410049
+    second: boi_huge_96x96_8
+  - first:
+      213: 4577786417808501425
+    second: boi_huge_96x96_9
+  - first:
+      213: -1981222518686657878
+    second: boi_huge_96x96_10
+  - first:
+      213: 3340083261954158806
+    second: boi_huge_96x96_11
+  - first:
+      213: 1276563138449359387
+    second: boi_huge_96x96_12
+  - first:
+      213: -1116544632254530490
+    second: boi_huge_96x96_13
+  - first:
+      213: 2930021111678484162
+    second: boi_huge_96x96_14
+  - first:
+      213: 3082906436482616826
+    second: boi_huge_96x96_15
+  - first:
+      213: -5714609014871448023
+    second: boi_huge_96x96_16
+  - first:
+      213: 4733091810189440511
+    second: boi_huge_96x96_17
+  - first:
+      213: 8144635328334048167
+    second: boi_huge_96x96_18
+  - first:
+      213: -3492995694674187122
+    second: boi_huge_96x96_19
+  - first:
+      213: 9212746943522932097
+    second: boi_huge_96x96_20
+  - first:
+      213: 4793945581448146926
+    second: boi_huge_96x96_21
+  - first:
+      213: 4503159379012348735
+    second: boi_huge_96x96_22
+  - first:
+      213: -711737166978841362
+    second: boi_huge_96x96_23
+  - first:
+      213: 153832868442864232
+    second: boi_huge_96x96_24
+  - first:
+      213: 6963038536739666758
+    second: boi_huge_96x96_25
+  - first:
+      213: 1099478547260104454
+    second: boi_huge_96x96_26
+  - first:
+      213: -8728615288811584004
+    second: boi_huge_96x96_27
+  - first:
+      213: -6687005727678957284
+    second: boi_huge_96x96_28
+  - first:
+      213: -142266788298065679
+    second: boi_huge_96x96_29
+  - first:
+      213: 6135514213921801631
+    second: boi_huge_96x96_30
+  - first:
+      213: -6478249079862219549
+    second: boi_huge_96x96_31
+  - first:
+      213: 14794078979061736
+    second: boi_huge_96x96_32
+  - first:
+      213: -7515549963737930169
+    second: boi_huge_96x96_33
+  - first:
+      213: 5304151076897107653
+    second: boi_huge_96x96_34
+  - first:
+      213: -104034197652080630
+    second: boi_huge_96x96_35
+  - first:
+      213: 3584761311415961922
+    second: boi_huge_96x96_36
+  - first:
+      213: 3088642876865435445
+    second: boi_huge_96x96_37
+  - first:
+      213: 6747402712362827107
+    second: boi_huge_96x96_38
+  - first:
+      213: -5147030113107190637
+    second: boi_huge_96x96_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boi_huge_96x96_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e8653c8eb0f084f844e3d7d6084471
+      internalID: -6584370590967411807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9003afbc2ab124db395c682469591b
+      internalID: 2686311152413529852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0161c0ad7d5174fa2bd75ef8bf3208
+      internalID: -1111300714669309592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054ae12bf39be142bce7a99c379865e
+      internalID: 1939358399860775109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7550ac5f5d9e24e4e9aa3beebb077a68
+      internalID: 5129315872886830500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f1127f5b2507f438dd71bbca0058f6
+      internalID: 2050330633674519652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01acb301c358c69428ec10d35ef81e8e
+      internalID: -6207434928577085405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 416
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11adf6e77bbae74aa14ecb5273c7f43
+      internalID: -8190692558046200294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a6a4cef65ec6d44a7e3b4474897e82
+      internalID: 1667923951457410049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ec7ce5ea76b9446bcf01e93a8cef7b
+      internalID: 4577786417808501425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dcd1a900b1ec244951c0d7417e9eaa
+      internalID: -1981222518686657878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb53c89fc6db183408ee9c8a088f04a5
+      internalID: 3340083261954158806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da4f76d1ad9a5943ae8f4ead6810fc7
+      internalID: 1276563138449359387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8103fc18910694384db71ff20560b9
+      internalID: -1116544632254530490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf06f44cffc2184a9b7573ffc180ab3
+      internalID: 2930021111678484162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_15
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 312
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cddb8e15f5fef41868d941915fba75
+      internalID: 3082906436482616826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610341ee96d452642ac5fba797ea404d
+      internalID: -5714609014871448023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f707452405d861429deb54da6d917ca
+      internalID: 4733091810189440511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c46afdbb3ada94595e6df1b2b773f0
+      internalID: 8144635328334048167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675e82592faab6144a3aebdb2051607e
+      internalID: -3492995694674187122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f0b3d49fd68748a3db4ac9796ac18
+      internalID: 9212746943522932097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0f08aeff4e1ef47859fbc5ccd600c3
+      internalID: 4793945581448146926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7f0c4ed37ad8841be75eca43eb388f
+      internalID: 4503159379012348735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_23
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 208
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f983391789f3e2743b2387eefe2ad516
+      internalID: -711737166978841362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080591bff09f5a248abe613214891bee
+      internalID: 153832868442864232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55538f920c1b46428a91992290f9c9c
+      internalID: 6963038536739666758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8be9340afb534549aa6e7ee7f615e12
+      internalID: 1099478547260104454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f2684b35b21c45be9499fec4ecd2c
+      internalID: -8728615288811584004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3503298df8753224e9a5a72123bb787b
+      internalID: -6687005727678957284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0dcf62fdd7c84ebfda148e13faf01
+      internalID: -142266788298065679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_30
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e454f480fd1d46852cecc47a07585
+      internalID: 6135514213921801631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_31
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 104
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07316f78f872b647b2dc31ca15bfa02
+      internalID: -6478249079862219549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45873d6d56938ba4ba7b8ea317c5cd10
+      internalID: 14794078979061736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ea54ae1305a244bd8ffbf82669392
+      internalID: -7515549963737930169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4f6bb77388a614497b82f0b325c4f0
+      internalID: 5304151076897107653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d066c3b18e1ee4ead152c510f2e32e
+      internalID: -104034197652080630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c777ef75bc0e38d44b4a98d2b009fe61
+      internalID: 3584761311415961922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8283c53f372ce4aa32faa1931ae963
+      internalID: 3088642876865435445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62d76b9d69c4f54188aed2e9a230993
+      internalID: 6747402712362827107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_huge_96x96_39
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014c0502a80e144b8d715918efdc133
+      internalID: -5147030113107190637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

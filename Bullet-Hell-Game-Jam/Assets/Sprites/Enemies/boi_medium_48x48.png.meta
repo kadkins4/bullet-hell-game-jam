@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: 58aa60eabcf692347a129dd85cd8224f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6207056918517820773
+    second: boi_medium_48x48_0
+  - first:
+      213: -2639254442764633821
+    second: boi_medium_48x48_1
+  - first:
+      213: -6192189563950281818
+    second: boi_medium_48x48_2
+  - first:
+      213: 2420110068160159616
+    second: boi_medium_48x48_3
+  - first:
+      213: -2385830126237091793
+    second: boi_medium_48x48_4
+  - first:
+      213: -5545149293331259822
+    second: boi_medium_48x48_5
+  - first:
+      213: -707925209702893174
+    second: boi_medium_48x48_6
+  - first:
+      213: -8659928991819237205
+    second: boi_medium_48x48_7
+  - first:
+      213: -5057973346613944068
+    second: boi_medium_48x48_8
+  - first:
+      213: 2625282865576591002
+    second: boi_medium_48x48_9
+  - first:
+      213: -4582851745241277040
+    second: boi_medium_48x48_10
+  - first:
+      213: -7940908064803024791
+    second: boi_medium_48x48_11
+  - first:
+      213: -3558274640479712219
+    second: boi_medium_48x48_12
+  - first:
+      213: 4943199613333340138
+    second: boi_medium_48x48_13
+  - first:
+      213: 8837804261653223035
+    second: boi_medium_48x48_14
+  - first:
+      213: 8912567213946899198
+    second: boi_medium_48x48_15
+  - first:
+      213: -8494987400942259122
+    second: boi_medium_48x48_16
+  - first:
+      213: 3304186993749614388
+    second: boi_medium_48x48_17
+  - first:
+      213: 1543507507044264493
+    second: boi_medium_48x48_18
+  - first:
+      213: -385666840306259415
+    second: boi_medium_48x48_19
+  - first:
+      213: -4187201692122033009
+    second: boi_medium_48x48_20
+  - first:
+      213: -7808075668149586173
+    second: boi_medium_48x48_21
+  - first:
+      213: 7559589542251970944
+    second: boi_medium_48x48_22
+  - first:
+      213: -3265116964341784289
+    second: boi_medium_48x48_23
+  - first:
+      213: 2586838505679390961
+    second: boi_medium_48x48_24
+  - first:
+      213: -4266443826633995142
+    second: boi_medium_48x48_25
+  - first:
+      213: 2065488014304228402
+    second: boi_medium_48x48_26
+  - first:
+      213: -6018209627679228269
+    second: boi_medium_48x48_27
+  - first:
+      213: -563191485187937023
+    second: boi_medium_48x48_28
+  - first:
+      213: -997351455033562399
+    second: boi_medium_48x48_29
+  - first:
+      213: 1038076068668355962
+    second: boi_medium_48x48_30
+  - first:
+      213: -7323382284247174548
+    second: boi_medium_48x48_31
+  - first:
+      213: 493485462839025195
+    second: boi_medium_48x48_32
+  - first:
+      213: 592083776643216198
+    second: boi_medium_48x48_33
+  - first:
+      213: 2512754859756026676
+    second: boi_medium_48x48_34
+  - first:
+      213: -5280854287437441136
+    second: boi_medium_48x48_35
+  - first:
+      213: -180651818815124582
+    second: boi_medium_48x48_36
+  - first:
+      213: 7546705605042610611
+    second: boi_medium_48x48_37
+  - first:
+      213: 6058641463121860394
+    second: boi_medium_48x48_38
+  - first:
+      213: 2415087548858682994
+    second: boi_medium_48x48_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boi_medium_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 228
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba98606342a6fc3488349b987aadbda1
+      internalID: 6207056918517820773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 226
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae40a5e2c7daa468687d6cc61e5706
+      internalID: -2639254442764633821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 224
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4de128d7d44244bf3d9af5ba8bf49
+      internalID: -6192189563950281818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 226
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3553bd28738cc5a4d8a05fc0e94661c4
+      internalID: 2420110068160159616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 228
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe85425ae68519429e89b24d53be0b3
+      internalID: -2385830126237091793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 228
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a48e661297f1f469d9cd4026705087
+      internalID: -5545149293331259822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d02311e5af17b94a9bfe66a282830e8
+      internalID: -707925209702893174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 228
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b9ea076423cc438c347910316b280
+      internalID: -8659928991819237205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 172
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb9ac7f3bf0dc64cbdb2ad940c1aebb
+      internalID: -5057973346613944068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 170
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1560ef346210ac4b9355c5854a4081f
+      internalID: 2625282865576591002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 168
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc741dbf0efaa438ed106e0cde18e5
+      internalID: -4582851745241277040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 170
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5684625c21a03d543830390ed3c6b7c8
+      internalID: -7940908064803024791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e0e9a2187519244858e365054492ab
+      internalID: -3558274640479712219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 172
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd9a0977475e034fa711c216645277d
+      internalID: 4943199613333340138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 172
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c46a95ca45044ab4e6d3a2a3d6d7f
+      internalID: 8837804261653223035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 172
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da515825ef776e449fe254cbd254a13
+      internalID: 8912567213946899198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 116
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf1a721694983a48a19830a185df71a
+      internalID: -8494987400942259122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 114
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf74ca1e5ba0ea4395c2651b5c8e6e1
+      internalID: 3304186993749614388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 112
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935982f7f1c68c44786f6a1ce7bd7f6f
+      internalID: 1543507507044264493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 114
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd236379725e7a4ca952f3905e36fcc
+      internalID: -385666840306259415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6137a4a572aa57d41b14368dd7a06615
+      internalID: -4187201692122033009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 116
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c3bd782ac1f994cb92dd06be07148b
+      internalID: -7808075668149586173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 116
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93c26b63ae6f184fb33f1b49da8037f
+      internalID: 7559589542251970944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 116
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97433af348d0c40b6066482aa42134
+      internalID: -3265116964341784289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23fa41eae1fec84885aae1998bbcf10
+      internalID: 2586838505679390961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3f27a8d4a632041bef37683234e9cc
+      internalID: -4266443826633995142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f52cc099a6014409e845ead7607b2e
+      internalID: 2065488014304228402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 58
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f6e4b303bf09143b25e03fc395e676
+      internalID: -6018209627679228269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3224b6558f6ef6d4ea1d0a2c60097810
+      internalID: -563191485187937023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 60
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e79336ac228eb94487a41b7a4478b96
+      internalID: -997351455033562399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 60
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2619f41ee72ad479d98e8df33d8fe8
+      internalID: 1038076068668355962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 60
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848fe452b09ce4b4abe9e04c5a798958
+      internalID: -7323382284247174548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6507036bf7d740f4e8e71ca5902c9049
+      internalID: 493485462839025195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c814bcdb1769c73408ba064871b2fe53
+      internalID: 592083776643216198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2dc8c21d95c443b1b957026ab687c
+      internalID: 2512754859756026676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287d5e2c41ee22428a824c18c56c321
+      internalID: -5280854287437441136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c2086c63babf4ab8e9349cb872772
+      internalID: -180651818815124582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 4
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4b8ee8d44950c40aef2ca0746f0fbf
+      internalID: 7546705605042610611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 4
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c08cf1734290249b277861c42c4c35
+      internalID: 6058641463121860394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_medium_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 4
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf5865c59896247b2df0706f1eb159
+      internalID: 2415087548858682994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

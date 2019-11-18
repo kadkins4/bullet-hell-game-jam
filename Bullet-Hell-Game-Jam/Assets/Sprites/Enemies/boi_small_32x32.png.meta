@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: 3c8a18346bc535f4ca1bce2457974c98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8638735028612681443
+    second: boi_small_32x32_0
+  - first:
+      213: -1126583525168645072
+    second: boi_small_32x32_1
+  - first:
+      213: -8588848914940582821
+    second: boi_small_32x32_2
+  - first:
+      213: -5765164086798862868
+    second: boi_small_32x32_3
+  - first:
+      213: -961636004576266150
+    second: boi_small_32x32_4
+  - first:
+      213: 9087809875618900185
+    second: boi_small_32x32_5
+  - first:
+      213: 314697619063111603
+    second: boi_small_32x32_6
+  - first:
+      213: -1140230009430085404
+    second: boi_small_32x32_7
+  - first:
+      213: 7173889402511628595
+    second: boi_small_32x32_8
+  - first:
+      213: 6473477219589014985
+    second: boi_small_32x32_9
+  - first:
+      213: -1354724197107452128
+    second: boi_small_32x32_10
+  - first:
+      213: 8557157587603765737
+    second: boi_small_32x32_11
+  - first:
+      213: -4038512690007106025
+    second: boi_small_32x32_12
+  - first:
+      213: 6590955233476202093
+    second: boi_small_32x32_13
+  - first:
+      213: -6188422596401709505
+    second: boi_small_32x32_14
+  - first:
+      213: 7771759416712760298
+    second: boi_small_32x32_15
+  - first:
+      213: 3224650401663198948
+    second: boi_small_32x32_16
+  - first:
+      213: 1114229905059805708
+    second: boi_small_32x32_17
+  - first:
+      213: -1908621071511629072
+    second: boi_small_32x32_18
+  - first:
+      213: -1703019348862995410
+    second: boi_small_32x32_19
+  - first:
+      213: -1531637897467247253
+    second: boi_small_32x32_20
+  - first:
+      213: -6343230525533150875
+    second: boi_small_32x32_21
+  - first:
+      213: -4268386287855153256
+    second: boi_small_32x32_22
+  - first:
+      213: -3327684351341132812
+    second: boi_small_32x32_23
+  - first:
+      213: 4219950384907066103
+    second: boi_small_32x32_24
+  - first:
+      213: -6908594119216557217
+    second: boi_small_32x32_25
+  - first:
+      213: -364365366493006087
+    second: boi_small_32x32_26
+  - first:
+      213: 5548141686991040168
+    second: boi_small_32x32_27
+  - first:
+      213: -4620319566074413179
+    second: boi_small_32x32_28
+  - first:
+      213: 4257013413234804075
+    second: boi_small_32x32_29
+  - first:
+      213: 6403873139211531866
+    second: boi_small_32x32_30
+  - first:
+      213: 4654205699628083884
+    second: boi_small_32x32_31
+  - first:
+      213: 4402462652352394089
+    second: boi_small_32x32_32
+  - first:
+      213: 8695434678606404410
+    second: boi_small_32x32_33
+  - first:
+      213: 2332059435927290419
+    second: boi_small_32x32_34
+  - first:
+      213: 3421228505080881919
+    second: boi_small_32x32_35
+  - first:
+      213: -1207926717650968542
+    second: boi_small_32x32_36
+  - first:
+      213: -1019342790004330254
+    second: boi_small_32x32_37
+  - first:
+      213: 5037751920785137490
+    second: boi_small_32x32_38
+  - first:
+      213: 115619048169041548
+    second: boi_small_32x32_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boi_small_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 164
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eee11fbe9cfe88489c12ed003f3951a
+      internalID: 8638735028612681443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 162
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2d272681324a47abb221cdadb834e
+      internalID: -1126583525168645072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 160
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e6979dc3e7e074d88ef05a90ab0480
+      internalID: -8588848914940582821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 162
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de0b6ae28332894482acd36aae9540b
+      internalID: -5765164086798862868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 164
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41caffcfb71e0354ba15a64fb863def6
+      internalID: -961636004576266150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 164
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460a91d2bb6cc8489334707d03699bd
+      internalID: 9087809875618900185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 164
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82173e83c5e84d445b1a330d830b9140
+      internalID: 314697619063111603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 164
+        width: 36
+        height: 32
+      alignment: 9
+      pivot: {x: 1.0276937, y: 0.5000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d33cea60c13741bf004ce8c0e222a
+      internalID: -1140230009430085404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae8087d8cf027643a9a5aff25c82a5f
+      internalID: 7173889402511628595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 122
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edcf9eaac4ab0e46808bd273116e026
+      internalID: 6473477219589014985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 120
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30e89713c8a6f345849f0e8d344c02b
+      internalID: -1354724197107452128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 122
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db21a2eb021db5c438ccc510d78bcad4
+      internalID: 8557157587603765737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc7af40d59187648bb940c9ebe3b61a
+      internalID: -4038512690007106025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 124
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afac06abb0cd3346b7815deb6757f77
+      internalID: 6590955233476202093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 124
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb70dc4d20b0ff469ed6672c3d7f4e3
+      internalID: -6188422596401709505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 124
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b49e6b0d5353143b45b222b085243e
+      internalID: 7771759416712760298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640260d2172c0bd4eb241d776dc4fd18
+      internalID: 3224650401663198948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 82
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8689c5388a59498edb7a049d808b8
+      internalID: 1114229905059805708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03274ec26ec81d4eb1d15a9bc6eb127
+      internalID: -1908621071511629072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 82
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664718dc8b97754ebbda910b03aeab1
+      internalID: -1703019348862995410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542497ade3437d447ba65402a6c44db8
+      internalID: -1531637897467247253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 84
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc93c55db5e1214484c7522ef4eb15e
+      internalID: -6343230525533150875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd52077757831642844b66e37321ae1
+      internalID: -4268386287855153256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 84
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88fc02ef2e0ec84bb0e16c319075367
+      internalID: -3327684351341132812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d98744cf8d0f54798dff2a11f9bdfb
+      internalID: 4219950384907066103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 42
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94e9b6c1363daa4daacefff9701a5fd
+      internalID: -6908594119216557217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 40
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5fa66da7fca4846921a2338242ba30
+      internalID: -364365366493006087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 42
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d838eb41817ec4db55ce40f26f1962
+      internalID: 5548141686991040168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8c0acd616930f47aa83537f8c7b39d
+      internalID: -4620319566074413179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 44
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8481901c7642fbe4bab35779f2b1de0b
+      internalID: 4257013413234804075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 44
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d28dbdd3f4775419b3bae784bb3348
+      internalID: 6403873139211531866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 44
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f5123577e37e94080e62bcac694685
+      internalID: 4654205699628083884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fd6d9237a16ac45ba03c343c8ff8da
+      internalID: 4402462652352394089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdfe2b8b2a980c49b692aee51e6854e
+      internalID: 8695434678606404410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d04ec2071f200498e62006db4666be
+      internalID: 2332059435927290419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5716f77c5361742b013fd32eaa3c1e
+      internalID: 3421228505080881919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04f020185a632d4fb1a42b757e5fcae
+      internalID: -1207926717650968542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c6c640fbe815f49b6889d60f797c2c
+      internalID: -1019342790004330254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20762c6e4e96e2f4ab3f037af2ffa5e4
+      internalID: 5037751920785137490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boi_small_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 4
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936332b5e2dde3d4fab3f83c2c23eaa8
+      internalID: 115619048169041548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    int waitAndLoad = 2;
-    int splashScreenTime = 5;
+    int waitAndLoad = 4;
+    int splashScreenTime = 2;
 
     public void LoadSplashScreen () {
         StartCoroutine(ExitSplash());
@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
     }
 
     public void PlayGame() {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Instructions");
     }
 
     IEnumerator LoadGameOver() {

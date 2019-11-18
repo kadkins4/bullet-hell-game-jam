@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-
-    // TODO move playermovement items to a new player movement script to separate code -- or do we need to do this?
     [Header("Player Movement")]
     [SerializeField] [Range(0, 10)] float movementSpeed = 6f;
     Vector2 _movement;
@@ -15,6 +14,8 @@ public class Player : MonoBehaviour
 
     [Header("Player Health")]
     [SerializeField] [Range(0, 3)] int playerHealth = 1;
+    [SerializeField] Animator deathAnim;
+    bool isDead = false;
 
     [Header("Player Shooting")]
     [SerializeField] GameObject firePoint, projectile;
@@ -30,16 +31,19 @@ public class Player : MonoBehaviour
     [SerializeField] Sprite bluePlayer;
     Colors colorState;
 
-    [Header("DEV TEST CAMERA SHAKE")]
     public CameraShake cameraShake;
 
+    public UnityEvent deathEvent;
+
     void Start() {
-        // TODO Remove this debug line
-        Debug.Log("---------GAME JAM TIME! BRING ON THE BULLETS!-----------");
+        FindObjectOfType<MusicPlayer>().SetAndPlayMusicTrack(MusicTracks.Background, 0.5f);
         SetColor("Red");
+        isDead = false;
+        deathAnim.SetBool("IsDead", false);
     }
 
     void Update() {
+        if (!isDead) {
         // handle input
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
@@ -47,8 +51,12 @@ public class Player : MonoBehaviour
         // find mouse position
         _mousePosition = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
 
-        if (Input.GetButtonDown("Fire1")) { // using fire1 so that we have the flexibility to change the hotkey later
-            _Shoot();
+            if (Input.GetButtonDown("Fire1")) { // using fire1 so that we have the flexibility to change the hotkey later
+                _Shoot();
+            }
+        } else {
+            _movement.x = 0f;
+            _movement.y = 0f;
         }
     }
 
@@ -108,7 +116,6 @@ public class Player : MonoBehaviour
             colorState = Colors.Green;
         }
 
-        // TODO remove this from here only for dev testing
         StartCoroutine(cameraShake.Shake(.5f, .2f));
     }
 
@@ -118,5 +125,25 @@ public class Player : MonoBehaviour
 
     public Colors GetColorState() {
         return colorState;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.tag == "Enemy")
+        {
+            isDead = true;
+            deathEvent.Invoke();
+            deathAnim.SetBool("IsDead", true);
+            //Insert Game Over Screen here
+            FindObjectOfType<SceneLoader>().TriggerGameOver();
+            BasicEnemy[] enemiesActive = FindObjectsOfType<BasicEnemy>();
+            for (int i = 0; i < enemiesActive.Length; i++) {
+                enemiesActive[i].OnDeath();
+            }
+            TryhardEnemy[] tryhardActive = FindObjectsOfType<TryhardEnemy>();
+            for (int i = 0; i < tryhardActive.Length; i++) {
+                tryhardActive[i].OnDeath();
+            }
+        }
     }
 }

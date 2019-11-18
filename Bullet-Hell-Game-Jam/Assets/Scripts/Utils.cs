@@ -10,7 +10,7 @@ public enum Colors
     Green
 }
 
-public enum MusicTracks 
+public enum MusicTracks
 {
     Background,
     Menu,

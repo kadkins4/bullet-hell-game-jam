@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d928dc7830445f4438ff0c67f547c3a5, type: 3}
   m_Name: StageOne
   m_EditorClassIdentifier: 
-  durationTime: 20
+  durationTime: 5
   EnemiesThatCanSpawn:
-  - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
-  - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
   - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
   - {fileID: 2515304170737493196, guid: 998cfec7cd2b8244cb9ea128387e7875, type: 3}
   infinite: 0
   dependentStage: 1
-  enemySpeedMultiplier: 1
-  spawnLocation: {x: 3, y: 3, z: 0}
+  enemySpeedMultiplier: 0.75

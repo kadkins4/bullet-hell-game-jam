@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7808164709046634060}
   m_Layer: 0
   m_Name: StageManager
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,9 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428fecb20466bd1439e9c27a725d3a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnLocations: []
   Stages:
   - {fileID: 11400000, guid: 13854dca32f7d1b4eb2b67a0b5dbdc1d, type: 2}
   - {fileID: 11400000, guid: 5c551088437ee0f45822c0dad3060f1d, type: 2}
+  - {fileID: 11400000, guid: 9a90e56aadc1da14b9f8015ca7f0fd18, type: 2}
+  - {fileID: 11400000, guid: e53c78b02c96d9b48ade163bde461ece, type: 2}
+  - {fileID: 11400000, guid: 20649eeffee91cd4fb961e86cf284de0, type: 2}
+  - {fileID: 11400000, guid: d6b76e9d93e85ac4aa3a88a6914d9f5f, type: 2}
   stageQueue: []
   currentStage: {fileID: 0}
+  cameraShaker: {fileID: 0}
   enemiesSpawned: []

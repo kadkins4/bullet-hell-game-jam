@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a4b81d33e0d409b92743bd17ce5d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMusic: {fileID: 8300000, guid: c40c7e140a1bf400d820958bea2667b7, type: 3}
-  menuMusic: {fileID: 8300000, guid: 9a0acf7df0a64473bbb07e62f0c91ea6, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: cfc9522f7b87943d6b842935e7d2fd94, type: 3}
+  menuMusic: {fileID: 8300000, guid: 60eda3ffd9d0940d081697fb4aba049e, type: 3}
   gameOverMusic: {fileID: 8300000, guid: 415b339c393c44d01910d6c6bcab5a31, type: 3}
   musicVolume: 0.5

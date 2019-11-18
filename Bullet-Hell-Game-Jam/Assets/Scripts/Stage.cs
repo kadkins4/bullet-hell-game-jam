@@ -17,8 +17,5 @@ public class Stage : ScriptableObject
     [Header("Whether all enemies must be dead to start next stage")]
     public bool dependentStage = false;
     [Header("Control Speed of Enemies in this stage")]
-    public float enemySpeedMultiplier = 3.0f;
-
-    //Temporary till I figure out random spawning
-    public Vector3 spawnLocation;
+    public float enemySpeedMultiplier = 1.0f;
 }

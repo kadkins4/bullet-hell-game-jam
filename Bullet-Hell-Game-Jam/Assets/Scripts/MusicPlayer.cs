@@ -18,6 +18,10 @@ public class MusicPlayer : MonoBehaviour
         SetupSingleton();
     }
 
+    void Start() {
+        SetAndPlayMusicTrack(MusicTracks.Background);
+    }
+
     void SetupSingleton() {
         int musicPlayerCount = FindObjectsOfType<MusicPlayer>().Length;
 
@@ -29,8 +33,7 @@ public class MusicPlayer : MonoBehaviour
         }
     }
 
-    public void SetMusicTrack(MusicTracks type, float vol = 1f) {
-        Debug.Log("Setting Music " + type);
+    public void SetAndPlayMusicTrack(MusicTracks type, float vol = 1f) {
         if (vol > 1f || vol < 0f) {
             musicVolume = 1f;
         }

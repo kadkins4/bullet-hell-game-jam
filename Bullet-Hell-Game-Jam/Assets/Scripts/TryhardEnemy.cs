@@ -32,19 +32,20 @@ public class TryhardEnemy : Enemy
     {
         //Probably inefficient but who cares
         MoveTowardsPlayer();
+        childTransform.rotation = Quaternion.Euler(Vector2.zero);
     }
 
     void UpdateSize()
     {
-        _collider.radius = size * 0.25f;
+        _collider.radius = size * 0.75f;
         childTransform.localScale = Vector2.one * size * 3f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         
-        if(collision.transform.tag == "Projectile")
+
+        if (collision.transform.tag == "Projectile")
         {
             HandleDeath();
         }

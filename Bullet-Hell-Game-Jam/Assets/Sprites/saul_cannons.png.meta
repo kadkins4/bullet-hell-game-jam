@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: aaac4e23c56fb46678e74aff264affe5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7899101293878710765
+    second: saul_cannons_0
+  - first:
+      213: 4654118743939765847
+    second: saul_cannons_1
+  - first:
+      213: 8742544904414391798
+    second: saul_cannons_2
+  - first:
+      213: 443825370455017814
+    second: saul_cannons_3
+  - first:
+      213: 1148029398863506788
+    second: saul_cannons_4
+  - first:
+      213: 927393720356047635
+    second: saul_cannons_5
+  - first:
+      213: 1052162932572529816
+    second: saul_cannons_6
+  - first:
+      213: -6179527752683963463
+    second: saul_cannons_7
+  - first:
+      213: 8180030032883103676
+    second: saul_cannons_8
+  - first:
+      213: 497834230437205457
+    second: saul_cannons_9
+  - first:
+      213: 1053999472931571949
+    second: saul_cannons_10
+  - first:
+      213: 9046054226703086418
+    second: saul_cannons_11
+  - first:
+      213: 3926396832498411059
+    second: saul_cannons_12
+  - first:
+      213: -4833912589106774905
+    second: saul_cannons_13
+  - first:
+      213: 7762648230813655622
+    second: saul_cannons_14
+  - first:
+      213: -4758988195544689971
+    second: saul_cannons_15
+  - first:
+      213: 440966787969868049
+    second: saul_cannons_16
+  - first:
+      213: -8135896922977965557
+    second: saul_cannons_17
+  - first:
+      213: 6907868725034637388
+    second: saul_cannons_18
+  - first:
+      213: 5022710361881996404
+    second: saul_cannons_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saul_cannons_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 378
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719227d57fae940de9e4fdd3b0240b1f
+      internalID: 7899101293878710765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 378
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36be13520c6cd4522b2274da171e85b6
+      internalID: 4654118743939765847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 378
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42796596ba8ad4310adc4f73af4377c0
+      internalID: 8742544904414391798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 378
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987398a12175c4529b956c54458ecbc0
+      internalID: 443825370455017814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 378
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef0a6ef1f3564887acdcccbd2fbbb40
+      internalID: 1148029398863506788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 258
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61693605549d7492294533efc2de3867
+      internalID: 927393720356047635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 258
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f35769702df46b1ba6d99c9c1d17e9
+      internalID: 1052162932572529816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_7
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 258
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460463921aea4b5e8d6c7794fea588e
+      internalID: -6179527752683963463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_8
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 258
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b83b2399c6d491294672974a02f137
+      internalID: 8180030032883103676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 258
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dde1398709a44aab564c06d45bc71f
+      internalID: 497834230437205457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 138
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca055b7d3c84d9b80a38ef0827e501
+      internalID: 1053999472931571949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 138
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eae79a0ca1146f6b671d83002dc9fe
+      internalID: 9046054226703086418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 138
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1377d441134be19ba2f38174de215
+      internalID: 3926396832498411059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 138
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d90073564941a891d89fbf31a20dd
+      internalID: -4833912589106774905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 138
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c3723f8ff36434da6857de865dd956
+      internalID: 7762648230813655622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df166e0e4d894fdc81652e691944995
+      internalID: -4758988195544689971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 18
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39677357c511f46fb8bbd3c52d0e05b6
+      internalID: 440966787969868049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 18
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d7e09fb3a25457e8ffedc2020295ab
+      internalID: -8135896922977965557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_18
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 18
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661e8f67458b74034a54ba20541e3d4c
+      internalID: 6907868725034637388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saul_cannons_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 18
+        width: 84
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc4135b38f174fff9dd2f631ed6eb2f
+      internalID: 5022710361881996404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
