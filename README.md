@@ -6,7 +6,7 @@ A game jam bullet hell game.
 
 
 
-# Hi, I'm Kendall Adkins 👋
+## Hi, I'm Kendall Adkins 👋
 
 Senior Software Engineer. I build performant, accessible, and visually refined web, mobile, and game experiences.
 
